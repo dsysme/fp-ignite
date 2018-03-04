@@ -53,9 +53,11 @@ if (debugLevel == "debug")
 [Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ### More power to work with types
 ### We can harness the compiler to help us in new ways
+* Higher Kinded Type which looks like this ```Monad[T[_]]```
 * [type classes and hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * [type classes and build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
 ---
+![lego_bricks](https://commons.wikimedia.org/wiki/File:2_duplo_lego_bricks.jpg)
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
