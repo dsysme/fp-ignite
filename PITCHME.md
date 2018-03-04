@@ -5,10 +5,10 @@
 ---
 @title[Transition]
 # The meaning of Tingo
-@title[Simple data holding class in Java]
 ---?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
-@title[Simple data holding class in Scala]
+@title[Simple data holding class in Java]
 ---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
+@title[Simple data holding class in Scala]
 ---
 @title[Case class Sammery]
 ### Case class Sammery
