@@ -1,9 +1,9 @@
 @title[Introduction]
-# Triangles
+# Why Learn Functiona Programming?
 
-### A GitPitch Presentation Template
+### Sharon Shmorak
 
----
+---?gist=Book/abd45dfb2423ddd059c49cbbf8148207&lang=Java
 
 ## Tips!
 
