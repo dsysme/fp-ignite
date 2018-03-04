@@ -67,5 +67,5 @@ if (debugLevel == "debug")
 
 ---
 @title[because they are hard]
-![Apollo_program](https://en.wikipedia.org/wiki/Apollo_program)
+![Apollo_program](https://goo.gl/images/cn6bJm)
 We choose to go to the Moon in this decade and do the other things,not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win ...
