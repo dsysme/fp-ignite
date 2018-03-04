@@ -59,7 +59,7 @@ if (debugLevel == "debug")
 ---
 @title[Computations as Lego bricks]
 ### Computations as Lego bricks
-!(https://commons.wikimedia.org/wiki/File:2_duplo_lego_bricks.jpg)
+!(https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 ---
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
