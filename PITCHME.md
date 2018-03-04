@@ -28,6 +28,8 @@
 ### More power to functions 
 * pass as paramter and return as result
 * pass by name 
+---
+@title[We gain laziness]
 ### We gain laziness
 ```java
 logger.debug(veryExpensiveCall())
