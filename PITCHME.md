@@ -67,7 +67,9 @@ if (debugLevel == "debug")
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 ---
 @title[firstWord]
----?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=Java GIST
+---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
+---?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
+---?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
 @title[fp in Java]
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
