@@ -57,7 +57,10 @@ if (debugLevel == "debug")
 * [type classes and hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * [type classes and build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
 ---
+@title[Computations as Lego bricks]
+### Computations as Lego bricks
 ![lego_bricks](https://commons.wikimedia.org/wiki/File:2_duplo_lego_bricks.jpg)
+---
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
