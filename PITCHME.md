@@ -50,9 +50,9 @@ public static final Function<String> veryExpensiveCallSupplier =
 if (debugLevel == "debug")
   log(veryExpensiveCallSupplier.get())
 ```
+[Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ---
 @title[More power to types]
-[Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ### More power to work with types
 ### We can harness the compiler to help us in new ways
 * Higher Kinded Type which looks like this ```Monad[T[_]]```
