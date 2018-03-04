@@ -35,7 +35,7 @@ logger.debug(veryExpensiveCall())
 ```java
 logger.debug(() -> veryExpensiveCall())
 ```
-```
+```java
 // Hoisted Function
 public static final Function<String> veryExpensiveCallSupplier = 
   new Supplier<String>() {
@@ -59,7 +59,7 @@ if (debugLevel == "debug")
 ---
 @title[Computations as Lego bricks]
 ### Computations as Lego bricks
-![lego_bricks](https://commons.wikimedia.org/wiki/File:2_duplo_lego_bricks.jpg)
+!(https://commons.wikimedia.org/wiki/File:2_duplo_lego_bricks.jpg)
 ---
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
