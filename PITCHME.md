@@ -24,7 +24,7 @@
 * More power to do things with types 
 * Responsibility to keep functions pure
 ---
-@title[More power to functionsMore power to functions]
+@title[More power to functions]
 ### More power to functions 
 * pass as paramter and return as result
 * pass by name 
@@ -48,6 +48,8 @@ public static final Function<String> veryExpensiveCallSupplier =
 if (debugLevel == "debug")
   log(veryExpensiveCallSupplier.get())
 ```
+---
+@title[More power to types]
 [Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ### More power to work with types
 ### We can harness the compiler to help us in new ways
@@ -64,5 +66,6 @@ if (debugLevel == "debug")
 [scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
 
 ---
-![We choose to go to the Moon in this decade and do the other things,not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win ...](https://en.wikipedia.org/wiki/Apollo_program)
-
+@title[because they are hard]
+![Apollo_program](https://en.wikipedia.org/wiki/Apollo_program)
+We choose to go to the Moon in this decade and do the other things,not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win ...
