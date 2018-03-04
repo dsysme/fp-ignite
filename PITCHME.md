@@ -33,7 +33,8 @@ logger.debug(() -> veryExpensiveCall())
 ```
 ```
 // Hoisted Function
-public static final Function<String> veryExpensiveCallSupplier = new Supplier<String>() {
+public static final Function<String> veryExpensiveCallSupplier = 
+  new Supplier<String>() {
     public String get() {
         return veryExpensiveCall();
     }
