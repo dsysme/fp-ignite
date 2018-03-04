@@ -70,6 +70,8 @@ if (debugLevel == "debug")
 ---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
 ---?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
 ---?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
+---?gist=7a957907348432b947f86893d28918e0&lang=Scala
+---?gist=d1887e11cffb4f298b518f5292765a6c&lang=Scala
 @title[fp in Java]
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
