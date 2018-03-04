@@ -11,7 +11,7 @@
 ---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
 ---
 @title[Case class Sammery]
-##Case class Sammery
+## Case class Sammery
 * Concies
 * Pragmatic equal sematics 
 * Meanigful toString
@@ -19,10 +19,10 @@
 * Support for Pattern extraction
 ---
 @title[Power and Responsibility]
-##Greater Power Greater Responsibility
+## Greater Power Greater Responsibility
 * More power to do things with functions
 * More power to do things with types 
 * Responsibility to keep functions pure
 ---
 @title[More power to functions]
-```logger.debug(veryExpensiveCall())
+``` logger.debug(veryExpensiveCall())
