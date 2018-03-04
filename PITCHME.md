@@ -25,6 +25,21 @@
 * Responsibility to keep functions pure
 ---
 @title[More power to functions]
-```scala
+```java
 logger.debug(veryExpensiveCall())
 ```
+```java
+logger.debug(() -> veryExpensiveCall())
+```
+// Hoisted Function
+public static final Function<String> veryExpensiveCallSupplier = new Supplier<String>() {
+    public String get() {
+        return veryExpensiveCall();
+    }
+}; 
+
+// Usage:
+if (debugLevel == "debug")
+  log(veryExpensiveCallSupplier.get())
+```
+[Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
