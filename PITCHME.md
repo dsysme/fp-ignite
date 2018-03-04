@@ -54,19 +54,26 @@ if (debugLevel == "debug")
 ---
 @title[More power to types]
 ### More power to work with types
-### We can harness the compiler to help us in new ways
 * Higher Kinded Type which looks like this ```Monad[T[_]]```
-* [type classes and hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
-* [type classes and build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
+* type classes
+---
+### We can harness the compiler to help us in new ways
+* Safer safe type langauge
+* [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
+* [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
 ---
 @title[Computations as Lego bricks]
 ### Computations as Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 ---
+@title[firstWord]
+---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=Java GIST
+@title[fp in Java]
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
 ---
+@title[fp in Scala]
 ### Where to learn more on Functional Programming in Scala
 [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 [scala/scala on gitter](https://gitter.im/scala/scala)
