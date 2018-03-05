@@ -38,7 +38,6 @@ logger.debug(veryExpensiveCall())
 logger.debug(() -> veryExpensiveCall())
 ```
 ```java
-// Hoisted Function
 public static final Function<String> veryExpensiveCallSupplier = 
   new Supplier<String>() {
     public String get() {
