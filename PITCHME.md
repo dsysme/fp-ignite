@@ -58,7 +58,7 @@ if (debugLevel == "debug")
 * Safer safe type langauge
 ---
 @title[Computations as Lego bricks]
-### Computations as Lego bricks
+### Purity makes computations compose like Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 
 ---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
