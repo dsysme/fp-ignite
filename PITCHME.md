@@ -1,5 +1,5 @@
 @title[Introduction]
-## Why Learn Functiona Programming?
+## Why Learn Functional Programming?
 
 ### Sharon Shmorak
 ---
@@ -11,7 +11,7 @@
 @title[Simple data holding class in Scala]
 ---
 @title[Case class Sammery]
-### Case class Sammery
+### Case class Summery
 * Concies
 * Pragmatic equal sematics 
 * Meanigful toString
@@ -68,22 +68,26 @@ if (debugLevel == "debug")
 ---
 @title[firstWord]
 ---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
+@title[Unsafe composition]
 ---?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
+@title[FP style composition]
 ---?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
 ---?gist=7a957907348432b947f86893d28918e0&lang=Scala
 ---?gist=d1887e11cffb4f298b518f5292765a6c&lang=Scala
+---
+@title[Why learn FP?]
+### Why Learn functional Programming?
 @title[fp in Java]
+---
+@title[How to learn FP?]
+### How to learn Functional Programing?
+Not Alone! Find me on scala-il at gitter[] 
 ### Where to learn more on Functional Programming in Java
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
----
 @title[fp in Scala]
 ### Where to learn more on Functional Programming in Scala
 [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 [scala/scala on gitter](https://gitter.im/scala/scala)
 [scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
 
----
-@title[because they are hard]
-![Apollo_program](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyxM6L0ja-erPA8zyngiSYeeaI9vAHrJGRj7JWTab2ZehJrEQR)
-We choose to go to the Moon in this decade and do the other things,not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win ...
