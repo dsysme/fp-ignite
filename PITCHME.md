@@ -61,8 +61,11 @@ if (debugLevel == "debug")
 ### Purity makes computations compose like Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 
----?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
+---
 @title[firstWord]
+<script src="https://gist.github.com/stevenheidel/a374c47b11af279ff6be89faed37ff50.js"></script>
+<script src="https://gist.github.com/stevenheidel/70f24137de9e7b6f65b777df63b1e355.js"></script>
+<script src="https://gist.github.com/stevenheidel/eb0525f0a9525cdf949c687c78adb75f.js"></script>
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
 ---?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
