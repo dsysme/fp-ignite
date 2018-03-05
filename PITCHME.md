@@ -78,8 +78,19 @@ duplicate(firstWord(message));
 ```
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
----?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
+---
 @title[FP style composition]
+```java
+Optional<String> firstWord(String message) {
+  String[] words = message.split(' ');
+  if (words.length > 0) {
+    return Optional.of(words[0]);
+  } else {
+    return Optional.empty();
+  }
+}
+
+firstWord(input).map(this::duplicate)
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
 ---?gist=7a957907348432b947f86893d28918e0&lang=Scala
@@ -91,6 +102,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 @title[Why learn FP?]
 ### Why Learn functional Programming?
 * To gear you mind into becoming a better programmer
+* Get one step closer to being engineer
 * To reuse your code like Lego bricks
 * To fully exploit the power of the compiler to guard us from mistakes
 * So you can be lazy: do more, do it more efficiently and with far less code 
