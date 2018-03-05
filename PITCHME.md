@@ -90,16 +90,23 @@ if (debugLevel == "debug")
 <br>
 Not Alone! 
 <br>
-Find me on scala-il at [gitter](https://gitter.im/scala-il/Lobby)
+Find me on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 <br>
-[Follow me on Medium](https://medium.com/@sharon.shmorak)
+[Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
+## Thank you for listening
 ---
-### Resources 
+### More Resources 
 [scala/scala on gitter](https://gitter.im/scala/scala)
+<br>
 [practical-functional-programming](https://hackernoon.com/practical-functional-programming-6d7932abc58b) by [@stevenheidel](https://hackernoon.com/@stevenheidel)
+<br>
 [scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
+<br>
 [For: What is it good for?—Josh Suereth & Dick Wall](https://www.youtube.com/watch?v=WDaw2yXAa50)
+<br>
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
+<br>
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
-@title[fp in Scala]
-
+<br>
+[The Neophyte's Guide to Scala](http://danielwestheide.com/scala/neophytes.html)
+<br>
