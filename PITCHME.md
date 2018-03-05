@@ -101,8 +101,9 @@ Not Alone!
 <br>
 Find me on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 <br>
+<br>
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
-## Thank you for listening !!!
+### Thank you for listening !!!
 ---
 ### More Resources 
 [scala/scala on gitter](https://gitter.im/scala/scala)
