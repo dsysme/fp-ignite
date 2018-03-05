@@ -55,7 +55,7 @@ if (debugLevel == "debug")
 * Higher Kinded Type which looks like this ```Monad[T[_]]``` => [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
 * type classes => [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * Safer safe type langauge
-
+---
 @title[Computations as Lego bricks]
 ### Computations as Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
