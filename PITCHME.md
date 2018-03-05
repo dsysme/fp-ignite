@@ -63,7 +63,7 @@ if (debugLevel == "debug")
 
 ---
 @title[firstWord]
-<script src="https://gist.github.com/stevenheidel/a374c47b11af279ff6be89faed37ff50.js"></script>
+?gist=a374c47b11af279ff6be89faed37ff50
 <script src="https://gist.github.com/stevenheidel/70f24137de9e7b6f65b777df63b1e355.js"></script>
 <script src="https://gist.github.com/stevenheidel/eb0525f0a9525cdf949c687c78adb75f.js"></script>
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
