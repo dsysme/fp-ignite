@@ -63,13 +63,19 @@ if (debugLevel == "debug")
 
 ---
 @title[firstWord]
-?gist=a374c47b11af279ff6be89faed37ff50
-<script src="https://gist.github.com/stevenheidel/70f24137de9e7b6f65b777df63b1e355.js"></script>
-<script src="https://gist.github.com/stevenheidel/eb0525f0a9525cdf949c687c78adb75f.js"></script>
-Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
+```java
+String firstWord(String message) {
+  String[] words = message.split(' ');
+  if (words.length > 0) {
+    return words[0];
+  } else {
+    return null;
+  }
+}
 
----?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
-@title[Unsafe composition]
+// “Hello world” -> “HelloHello”
+duplicate(firstWord(message));
+```
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
 ---?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
