@@ -25,7 +25,7 @@
 * Responsibility to keep functions pure
 ---
 @title[More power to functions]
-### More power to functions 
+### More power to functions - Examples
 * pass as paramter and return as result
 * pass by name 
 ---
@@ -53,7 +53,7 @@ if (debugLevel == "debug")
 [Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ---
 @title[More power to types]
-### More power to work with types
+### More power to work with types - Examples
 * Higher Kinded Type which looks like this ```Monad[T[_]]```
 * type classes
 ---
@@ -94,7 +94,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 @title[fp in Java]
 ---
 @title[How to learn FP?]
-### How to learn Functional Programing?
+### How to learn Functional Programming?
 <br>
 Not Alone! 
 <br>
