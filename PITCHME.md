@@ -52,8 +52,9 @@ if (debugLevel == "debug")
 ---
 @title[More power to types]
 ### More power to work with types - Examples
-* Higher Kinded Type which looks like this ```Monad[T[_]]``` => [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
-* type classes => [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
+* apply tools from Category theory
+* [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
+* [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * Safer safe type langauge
 ---
 @title[Computations as Lego bricks]
