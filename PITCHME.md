@@ -90,7 +90,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 * To reuse your code like Lego bricks
 * To fully exploit the power of the compiler to guard us from mistakes
 * So you can be lazy: do more, do it more efficiently and with far less code 
-* So you can have fun
+* So you can have fun!
 @title[fp in Java]
 ---
 @title[How to learn FP?]
