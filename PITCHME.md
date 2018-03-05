@@ -91,6 +91,8 @@ Optional<String> firstWord(String message) {
 }
 
 firstWord(input).map(this::duplicate)
+```
+
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
 ---?gist=7a957907348432b947f86893d28918e0&lang=Scala
