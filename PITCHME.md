@@ -86,6 +86,11 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 ---
 @title[Why learn FP?]
 ### Why Learn functional Programming?
+* To gear you mind into becoming a better programmer
+* To reuse your code like Lego bricks
+* To fully exploit the power of the compiler to guard us from mistakes
+* So you can be lazy: do more, do it more efficiently and with far less code 
+* So you can have fun
 @title[fp in Java]
 ---
 @title[How to learn FP?]
