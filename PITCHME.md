@@ -87,9 +87,13 @@ if (debugLevel == "debug")
 ---
 @title[How to learn FP?]
 ### How to learn Functional Programing?
+<br>
 Not Alone! 
-Find me on scala-il at gitter(https://gitter.im/scala-il/Lobby)
+<br>
+Find me on scala-il at [gitter](https://gitter.im/scala-il/Lobby)
+<br>
 [Follow me on Medium](https://medium.com/@sharon.shmorak)
+---
 ### Resources 
 [scala/scala on gitter](https://gitter.im/scala/scala)
 [practical-functional-programming](https://hackernoon.com/practical-functional-programming-6d7932abc58b) by [@stevenheidel](https://hackernoon.com/@stevenheidel)
