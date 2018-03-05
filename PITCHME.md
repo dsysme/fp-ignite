@@ -66,14 +66,20 @@ if (debugLevel == "debug")
 ### Computations as Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 ---
-@title[firstWord]
+
 ---?gist=e0f55ca02c18f23ed759073c2b333a54&lang=Java&title=firstWord
-@title[Unsafe composition]
+@title[firstWord]
+
 ---?gist=70f24137de9e7b6f65b777df63b1e355&lang=Java&title=firstWord and duplicate
-@title[FP style composition]
+@title[Unsafe composition]
+
 ---?gist=eb0525f0a9525cdf949c687c78adb75f&lang=Java&title=firstWord and duplicate
+@title[FP style composition]
+
 ---?gist=7a957907348432b947f86893d28918e0&lang=Scala
+@title[For comprehension with Option]
 ---?gist=d1887e11cffb4f298b518f5292765a6c&lang=Scala
+@title[For comprehension with Future]
 ---
 @title[Why learn FP?]
 ### Why Learn functional Programming?
@@ -81,13 +87,15 @@ if (debugLevel == "debug")
 ---
 @title[How to learn FP?]
 ### How to learn Functional Programing?
-Not Alone! Find me on scala-il at gitter[] 
-### Where to learn more on Functional Programming in Java
+Not Alone! 
+Find me on scala-il at gitter(https://gitter.im/scala-il/Lobby)
+[Follow me on Medium](https://medium.com/@sharon.shmorak)
+### Resources 
+[scala/scala on gitter](https://gitter.im/scala/scala)
+[practical-functional-programming](https://hackernoon.com/practical-functional-programming-6d7932abc58b) by [@stevenheidel](https://hackernoon.com/@stevenheidel)
+[scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
+[For: What is it good for?—Josh Suereth & Dick Wall](https://www.youtube.com/watch?v=WDaw2yXAa50)
 [Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
 [java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
 @title[fp in Scala]
-### Where to learn more on Functional Programming in Scala
-[scala-il on gitter](https://gitter.im/scala-il/Lobby)
-[scala/scala on gitter](https://gitter.im/scala/scala)
-[scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
 
