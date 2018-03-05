@@ -13,10 +13,10 @@
 @title[Case class Sammery]
 ### Case class Summery
 * Concise
-* Pragmatic equal semantics 
+* Reasonable equals semantics 
 * Meanigful toString
 * Support for Builder pattern
-* Support for Pattern extraction
+* Extractor object to 
 ---
 @title[Power and Responsibility]
 ### Greater Power Greater Responsibility
@@ -50,7 +50,6 @@ public static final Function<String> veryExpensiveCallSupplier =
 if (debugLevel == "debug")
   log(veryExpensiveCallSupplier.get())
 ```
-[Java-8-Lambdas-A-Peek-Under-the-Hood](https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood)
 ---
 @title[More power to types]
 ### More power to work with types - Examples
