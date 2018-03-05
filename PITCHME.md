@@ -72,7 +72,8 @@ String firstWord(String message) {
     return null;
   }
 }
-
+```
+```java
 // “Hello world” -> “HelloHello”
 duplicate(firstWord(message));
 ```
@@ -89,7 +90,8 @@ Optional<String> firstWord(String message) {
     return Optional.empty();
   }
 }
-
+```
+```java
 firstWord(input).map(this::duplicate)
 ```
 
