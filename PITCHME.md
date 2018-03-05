@@ -12,8 +12,8 @@
 ---
 @title[Case class Sammery]
 ### Case class Summery
-* Concies
-* Pragmatic equal sematics 
+* Concise
+* Pragmatic equal semantics 
 * Meanigful toString
 * Support for Builder pattern
 * Support for Pattern extraction
@@ -98,10 +98,11 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 <br>
 Not Alone! 
 <br>
+<br>
 Find me on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 <br>
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
-## Thank you for listening
+## Thank you for listening !!!
 ---
 ### More Resources 
 [scala/scala on gitter](https://gitter.im/scala/scala)
