@@ -32,9 +32,11 @@
 @title[We gain laziness]
 ### We gain laziness
 ```java
+// pass by value
 logger.debug(veryExpensiveCall())
 ```
 ```java
+// pass by name 
 logger.debug(() -> veryExpensiveCall())
 ```
 ---
