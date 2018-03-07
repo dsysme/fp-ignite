@@ -1,125 +1,132 @@
 @title[Introduction]
-# Triangles
+## Why Learn Functional Programming?
 
-### A GitPitch Presentation Template
+### Sharon Shmorak
+---
+@title[Transition]
+# The meaning of Tingo
+---?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
+@title[Simple data holding class in Java]
+---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
+@title[Simple data holding class in Scala]
+---
+@title[Case class Sammery]
+### Case class Summery
+* Concise
+* Reasonable equals semantics 
+* Meanigful toString
+* Support for Builder pattern
+* Extractor object to 
+---
+@title[Power and Responsibility]
+### Greater Power Greater Responsibility
+* More power to do things with functions
+* More power to do things with types 
+* Responsibility to keep functions pure
+---
+@title[More power to functions]
+### More power to functions - Examples
+* pass as paramter and return as result
+* pass by name 
+---
+@title[We gain laziness]
+### We gain laziness
+```java
+// pass by value
+logger.debug(veryExpensiveCall())
+```
+```java
+// pass by name 
+logger.debug(() -> veryExpensiveCall())
+```
+---
+@title[More power to types]
+### More power to work with types - Examples
+* apply tools from Category theory
+* [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
+* [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
+* Safer safe type langauge
+---
+@title[Computations as Lego bricks]
+### Purity makes computations compose like Lego bricks
+![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 
 ---
-
-## Tips!
-
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
-
----
-
-## Template Features
-
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Images |
-- Background Image Scaling |
-- Custom Logo, TOC, and Footnotes |
-
----?code=sample/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+@title[firstWord]
+```java
+String firstWord(String message) {
+  String[] words = message.split(' ');
+  if (words.length > 0) {
+    return words[0];
+  } else {
+    return null;
+  }
+}
+```
+```java
+// “Hello world” -> “HelloHello”
+duplicate(firstWord(message));
+```
+Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
 ---
-
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
+@title[FP style composition]
+```java
+Optional<String> firstWord(String message) {
+  String[] words = message.split(' ');
+  if (words.length > 0) {
+    return Optional.of(words[0]);
+  } else {
+    return Optional.empty();
+  }
+}
+```
+```java
+firstWord(input).map(this::duplicate)
 ```
 
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
+Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
+---?gist=7a957907348432b947f86893d28918e0&lang=Scala
+@title[For comprehension with Option]
 
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
-
----?image=assets/image/snowscape.jpg&size=auto 80%&color=#58b9f5
-
-<!-- Sample slide background image scaling and custom color fill -->
-
+---?gist=d1887e11cffb4f298b518f5292765a6c&lang=Scala
+@title[For comprehension with Future]
 ---
-
-## Template Help
-
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Images](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Background Image Scaling](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#scaling)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting), [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents), and [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
-
+@title[Why learn FP?]
+### Why Learn functional Programming?
+* To gear you mind into becoming a better programmer
+* Get one step closer to being engineer
+* To reuse your code like Lego bricks
+* To fully exploit the power of the compiler to guard us from mistakes
+* So you can be lazy: do more, do it more efficiently and with far less code 
+* So you can have fun!
+@title[fp in Java]
 ---
-
-## GitPitch Pro Features
-
+@title[How to learn FP?]
+### How to learn Functional Programming?
 <br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
-
----
-
-### Questions?
-
+Not Alone! 
 <br>
-
-@fa[twitter gp-contact](@gitpitch)
-
-@fa[github gp-contact](gitpitch)
-
-@fa[medium gp-contact](@gitpitch)
-
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
-@title[Download this Template!]
-
-### <span class="white">Get your presentation started!</span>
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/triangles)
-
+<br>
+Find me on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
+<br>
+<br>
+[Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
+### Thank you for listening !!!
+---
+### More Resources 
+[scala/scala on gitter](https://gitter.im/scala/scala)
+<br>
+[practical-functional-programming](https://hackernoon.com/practical-functional-programming-6d7932abc58b) by [@stevenheidel](https://hackernoon.com/@stevenheidel)
+<br>
+[scale.bythebay.io: Rob Norris, Functional Programming with Effects](https://www.youtube.com/watch?v=po3wmq4S15A)
+<br>
+[For: What is it good for?—Josh Suereth & Dick Wall](https://www.youtube.com/watch?v=WDaw2yXAa50)
+<br>
+[Functional Programming in Java](https://www.youtube.com/watch?v=TCJdc9SYwlQ)
+<br>
+[java8-stream-tutorial-examples](http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/)
+<br>
+[The Neophyte's Guide to Scala](http://danielwestheide.com/scala/neophytes.html)
+<br>
