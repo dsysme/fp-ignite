@@ -47,6 +47,9 @@ logger.debug(() -> veryExpensiveCall())
 * [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * Safer safe type langauge
 ---
+![Imperative](https://github.com/dsysme/fp-ignite/blob/master/templates-triangles/assets/image/ImpeartiveDolphin.jpg)
+![Functional](https://github.com/dsysme/fp-ignite/blob/master/templates-triangles/assets/image/FunctionalDolphin.jpg)
+---
 @title[Computations as Lego bricks]
 ### Purity makes computations compose like Lego bricks
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
