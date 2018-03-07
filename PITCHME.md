@@ -37,18 +37,6 @@ logger.debug(veryExpensiveCall())
 ```java
 logger.debug(() -> veryExpensiveCall())
 ```
-```java
-public static final Function<String> veryExpensiveCallSupplier = 
-  new Supplier<String>() {
-    public String get() {
-        return veryExpensiveCall();
-    }
-}; 
-
-// Usage:
-if (debugLevel == "debug")
-  log(veryExpensiveCallSupplier.get())
-```
 ---
 @title[More power to types]
 ### More power to work with types - Examples
