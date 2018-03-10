@@ -45,11 +45,13 @@ logger.debug(() -> veryExpensiveCall())
 * apply tools from Category theory
 * [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
 * [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
-* Safer safe type langauge
 ---
 ![Imperative](https://cdn-images-1.medium.com/max/800/1*mF9TjMacwUoUhgYEhca3tw.jpeg)
 ---
 ![Functional](https://cdn-images-1.medium.com/max/800/1*KwRkXngGt9rmHrF1SgS8Bw.png)
+---
+### More power to work with types - Examples
+* Safer safe type langauge
 ---
 @title[Computations as Lego bricks]
 ### Purity makes computations compose like Lego bricks
