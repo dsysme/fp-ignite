@@ -48,7 +48,8 @@ logger.debug(() -> veryExpensiveCall())
 * Safer safe type langauge
 ---
 ![Imperative](https://cdn-images-1.medium.com/max/800/1*mF9TjMacwUoUhgYEhca3tw.jpeg)
-![Functional](https://github.com/dsysme/fp-ignite/blob/master/templates-triangles/assets/image/FunctionalDolphin.jpg)
+---
+![Functional](https://cdn-images-1.medium.com/max/800/1*KwRkXngGt9rmHrF1SgS8Bw.png)
 ---
 @title[Computations as Lego bricks]
 ### Purity makes computations compose like Lego bricks
