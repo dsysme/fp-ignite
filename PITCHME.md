@@ -50,8 +50,7 @@ logger.debug(() -> veryExpensiveCall())
 ---
 ![Functional](https://cdn-images-1.medium.com/max/800/1*KwRkXngGt9rmHrF1SgS8Bw.png)
 ---
-### More power to work with types - Examples
-* Safer safe type langauge
+### Safer safe type langauge
 ---
 @title[Computations as Lego bricks]
 ### Purity makes computations compose like Lego bricks
