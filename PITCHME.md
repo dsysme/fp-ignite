@@ -47,7 +47,7 @@ logger.debug(() -> veryExpensiveCall())
 * [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
 * Safer safe type langauge
 ---
-![Imperative](https://github.com/dsysme/fp-ignite/blob/master/templates-triangles/assets/image/ImpeartiveDolphin.jpg)
+![Imperative](https://cdn-images-1.medium.com/max/800/1*mF9TjMacwUoUhgYEhca3tw.jpeg)
 ![Functional](https://github.com/dsysme/fp-ignite/blob/master/templates-triangles/assets/image/FunctionalDolphin.jpg)
 ---
 @title[Computations as Lego bricks]
