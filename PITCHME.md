@@ -16,7 +16,7 @@
 * Reasonable equals semantics 
 * Meanigful toString
 * Support for Builder pattern
-* Extractor object to 
+* Support for Powerful pattern matching mechanism 
 ---
 @title[Power and Responsibility]
 ### Greater Power Greater Responsibility
