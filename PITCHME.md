@@ -20,7 +20,7 @@ case class Book(name: String, author: String)
 * Support for Builder pattern
 * Support for Powerful pattern matching mechanism 
 @title[Simple data holding class in Scala]
----?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST&file=Book.java
+---?gist=6db7dd32e2f360bc4bd221ac1f539e7a
 ---
 @title[The mind shift you can expect]
 ### Yes we can!
