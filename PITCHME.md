@@ -30,7 +30,7 @@ logger.debug(() -> veryExpensiveCall())
 ---
 @title[The mind shift you can expect]
 ### To code as an artist or as an engineer? 
----?image=https://cdn.pixabay.com/photo/2013/10/04/18/09/lego-190704_960_720.jpg&size=custom-size-config
+![Lego_bricks](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Lego_bricks.jpg/640px-Lego_bricks.jpg)
 ---
 @title[firstWord]
 ```java
