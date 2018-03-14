@@ -37,8 +37,6 @@ logger.debug(() -> veryExpensiveCall())
 // “Hello world” -> “HelloHello”
 duplicate(firstWord(message));
 ```
-Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
-
 ---
 @title[FP style composition]
 ```java
@@ -72,7 +70,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 Not Alone! 
 <br>
 <br>
-Find good people on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
+Find good people at [Scala](https://gitter.im/scala/scala) and [scala-il](https://gitter.im/scala-il/Lobby) rooms on gitter
 <br>
 <br>
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
