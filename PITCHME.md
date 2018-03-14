@@ -5,32 +5,19 @@
 ---
 @title[Transition]
 # The meaning of Tingo
----?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
-@title[Simple data holding class in Java]
 ---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
-@title[Simple data holding class in Scala]
----
-@title[Case class Sammery]
-### Case class Summery
+### More power...
 * Concise
 * Reasonable equals semantics 
 * Meanigful toString
 * Support for Builder pattern
 * Support for Powerful pattern matching mechanism 
----
-@title[Power and Responsibility]
-### Greater Power Greater Responsibility
-* More power to do things with functions
-* More power to do things with types 
-* Responsibility to keep functions pure
----
-@title[More power to functions]
-### More power to functions - Examples
-* pass as paramter and return as result
-* pass by name 
+@title[Simple data holding class in Scala]
+@title[Simple data holding class in Java]
+---?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
 ---
 @title[We gain laziness]
-### We gain laziness
+### For less work!
 ```java
 // pass by value
 logger.debug(veryExpensiveCall())
@@ -40,34 +27,12 @@ logger.debug(veryExpensiveCall())
 logger.debug(() -> veryExpensiveCall())
 ```
 ---
-@title[More power to types]
-### More power to work with types - Examples
-* apply tools from Category theory
-* [build in dependency injection](https://www.youtube.com/watch?v=ZasXwtTRkio)
-* [hd-hoc polymorphism](https://www.youtube.com/watch?v=1e9tcymPl7w)
----
-![Imperative](https://cdn-images-1.medium.com/max/800/1*mF9TjMacwUoUhgYEhca3tw.jpeg)
----
-![Functional](https://cdn-images-1.medium.com/max/800/1*KwRkXngGt9rmHrF1SgS8Bw.png)
----
-### Safer safe type langauge
----
-@title[Computations as Lego bricks]
-### Purity makes computations compose like Lego bricks
+@title[The mind shift you can expect]
+### To code as an artist or as an engineer? 
 ![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
 
 ---
 @title[firstWord]
-```java
-String firstWord(String message) {
-  String[] words = message.split(' ');
-  if (words.length > 0) {
-    return words[0];
-  } else {
-    return null;
-  }
-}
-```
 ```java
 // “Hello world” -> “HelloHello”
 duplicate(firstWord(message));
@@ -92,20 +57,13 @@ firstWord(input).map(this::duplicate)
 
 Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.com/practical-functional-programming-6d7932abc58b)
 
----?gist=7a957907348432b947f86893d28918e0&lang=Scala
-@title[For comprehension with Option]
-
----?gist=d1887e11cffb4f298b518f5292765a6c&lang=Scala
-@title[For comprehension with Future]
 ---
 @title[Why learn FP?]
 ### Why Learn functional Programming?
 * To gear you mind into becoming a better programmer
-* Get one step closer to being engineer
-* To reuse your code like Lego bricks
-* To fully exploit the power of the compiler to guard us from mistakes
-* So you can be lazy: do more, do it more efficiently and with far less code 
-* So you can have fun!
+* reuse code like Lego bricks
+* Get one step closer to being engineer by 
+* Many other resons but none that can fit in 10 min ignite talk
 @title[fp in Java]
 ---
 @title[How to learn FP?]
@@ -114,7 +72,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 Not Alone! 
 <br>
 <br>
-Find me on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
+Find good people on [scala-il on gitter](https://gitter.im/scala-il/Lobby)
 <br>
 <br>
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
