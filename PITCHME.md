@@ -5,9 +5,14 @@
 ---
 @title[Transition]
 # The meaning of Tingo
----?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
+---
 @title[Case class]
 ### The meaning of case
+```scala
+case class Book(name: String, author: String)
+
+case class Reader(name: String, loans: List[Book])
+```
 * Getters
 * Reasonable equals semantics 
 * Meanigful toString
