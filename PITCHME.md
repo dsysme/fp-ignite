@@ -8,6 +8,7 @@
 ---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
 ### More power...
 * Concise
+* Getters
 * Reasonable equals semantics 
 * Meanigful toString
 * Support for Builder pattern
@@ -29,8 +30,7 @@ logger.debug(() -> veryExpensiveCall())
 ---
 @title[The mind shift you can expect]
 ### To code as an artist or as an engineer? 
-![lego_bricks](https://upload.wikimedia.org/wikipedia/commons/0/0f/2_duplo_lego_bricks.jpg)
-
+![lego_bricks](https://cdn.pixabay.com/photo/2013/10/04/18/09/lego-190704_960_720.jpg)
 ---
 @title[firstWord]
 ```java
