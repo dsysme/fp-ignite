@@ -24,6 +24,10 @@ case class Reader(name: String, loans: List[Book])
 @title[Simple data holding class in Scala]
 ---?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
 ---
+@title[The mind shift you can expect]
+### Yes we can!
+### אנחנו יכולים/יכולות
+---
 @title[We gain laziness]
 ### Why work hard when you can be lazy?
 ```java
@@ -34,10 +38,6 @@ logger.debug(veryExpensiveCall())
 // pass by name 
 logger.debug(() -> veryExpensiveCall())
 ```
----
-@title[The mind shift you can expect]
-### Yes we can!
-### אנחנו יכולים/יכולות
 ---
 ### To code as an artist or as an engineer? 
 ![Lego_bricks](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Lego_bricks.jpg/640px-Lego_bricks.jpg)
