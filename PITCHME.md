@@ -6,19 +6,18 @@
 @title[Transition]
 # The meaning of Tingo
 ---?gist=06e83449bed463dc70687a686130906a&lang=Scala&title=Scala GIST
-### More power...
-* Concise
+@title[Case class]
+### The meaning of case
 * Getters
 * Reasonable equals semantics 
 * Meanigful toString
 * Support for Builder pattern
 * Support for Powerful pattern matching mechanism 
 @title[Simple data holding class in Scala]
-@title[Simple data holding class in Java]
 ---?gist=abd45dfb2423ddd059c49cbbf8148207&lang=Java&title=Java GIST
 ---
 @title[We gain laziness]
-### For less work!
+### Why work hard when you can be lazy?
 ```java
 // pass by value
 logger.debug(veryExpensiveCall())
@@ -29,6 +28,9 @@ logger.debug(() -> veryExpensiveCall())
 ```
 ---
 @title[The mind shift you can expect]
+### Yes we can!
+### אנחנו יכולים/יכולות
+---
 ### To code as an artist or as an engineer? 
 ![Lego_bricks](https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Lego_bricks.jpg/640px-Lego_bricks.jpg)
 ---
