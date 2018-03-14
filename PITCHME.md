@@ -47,16 +47,10 @@ logger.debug(() -> veryExpensiveCall())
 // “Hello world” -> “HelloHello”
 duplicate(firstWord(message));
 ```
----
 @title[FP style composition]
 ```java
 Optional<String> firstWord(String message) {
-  String[] words = message.split(' ');
-  if (words.length > 0) {
-    return Optional.of(words[0]);
-  } else {
-    return Optional.empty();
-  }
+  ...
 }
 ```
 ```java
@@ -69,8 +63,9 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 @title[Why learn FP?]
 ### Why Learn functional Programming?
 * To gear you mind into becoming a better programmer
-* The artist in you should compose music not code! compose code like Lego bricks
-* Many other resons but none that can fit in 10 min ignite talk
+* The artist in you should compose music not code! 
+* You should compose code like Lego bricks
+* Many other reasons but none that can be explained in less than 10 min
 @title[fp in Java]
 ---
 @title[How to learn FP?]
