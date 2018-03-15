@@ -62,7 +62,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 * The artist in you should compose music not code! 
 * You should compose code like Lego bricks
 * Many other reasons but none that can be explained in less than 10 min
---
+---
 @title[How to learn FP?]
 ### How to learn Functional Programming?
 <br>
