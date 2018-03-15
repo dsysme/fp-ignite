@@ -3,9 +3,6 @@
 
 ### Sharon Shmorak
 ---
-@title[C++ to Java to Scala]
-### C++ => JAVA != JAVA => FP/Scala
----
 @title[Transition]
 # The meaning of Tingo
 ---
