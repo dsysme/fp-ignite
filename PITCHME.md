@@ -3,7 +3,7 @@
 
 ### Sharon Shmorak
 ---
-@title[Transition]
+@title[Tingo]
 # The meaning of Tingo
 ---
 @title[Case class]
@@ -16,10 +16,11 @@ case class Book(name: String, author: String)
 * Meanigful toString
 * Support for Builder pattern
 * Support for Powerful pattern matching mechanism 
-@title[Simple data holding class in Scala]
+
 ---?gist=6db7dd32e2f360bc4bd221ac1f539e7a
+@title[Book POJO]
 ---
-@title[The mind shift you can expect]
+@title[Language shape your mind]
 ### Yes we can!
 ### אנחנו יכולים/יכולות
 ---
@@ -61,8 +62,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 * The artist in you should compose music not code! 
 * You should compose code like Lego bricks
 * Many other reasons but none that can be explained in less than 10 min
-@title[fp in Java]
----
+--
 @title[How to learn FP?]
 ### How to learn Functional Programming?
 <br>
@@ -75,6 +75,7 @@ Find good people at [Scala](https://gitter.im/scala/scala) and [scala-il](https:
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
 ### Thank you for listening !!!
 ---
+@title[More Resources]
 ### More Resources 
 [scala/scala on gitter](https://gitter.im/scala/scala)
 <br>
