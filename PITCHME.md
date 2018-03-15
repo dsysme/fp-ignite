@@ -69,8 +69,7 @@ Origin: [Practical Functional Programming by @stevenheidel](https://hackernoon.c
 Not Alone! 
 <br>
 <br>
-Find good people at [Scala](https://gitter.im/scala/scala) and [scala-il](https://gitter.im/scala-il/Lobby) rooms on gitter
-<br>
+Find good people at [Scala](https://gitter.im/scala/scala), [scala-il](https://gitter.im/scala-il/Lobby) on gitter
 <br>
 [Follow my Personal log: Learning Scala and Functional Programming on Medium](https://medium.com/@sharon.shmorak)
 ### Thank you for listening !!!
